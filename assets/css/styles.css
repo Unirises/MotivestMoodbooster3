@@ -1,0 +1,400 @@
+/* fonts */
+
+@font-face {
+    font-family: mungil;
+    src: url('../fonts/mungil_regular.ttf');
+}
+
+@font-face {
+    font-family: myraid;
+    src: url('../fonts/myraid_regular.OTF');
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.full-height {
+    height: 100%;
+}
+
+#my-canvas {
+    z-index: 900;
+    position: fixed;
+    pointer-events: none;
+}
+
+.background {
+    background-image: url('../img/bg1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* page 1 */
+
+.logo_size {
+    width: 40%;
+    margin-top: 2%;
+    float: left;
+    margin-left: 5%;
+}
+
+.logo_size2 {
+    width: 40%;
+    margin-top: -2%;
+    float: right;
+    margin-right: 5%;
+}
+
+.logo_size3 {
+    width: 25%;
+    margin-top: -6%;
+}
+
+.game_title_logo {
+    width: 45%;
+}
+
+.btn_enter {
+    width: 15%;
+    margin-top: 2.5%;
+}
+
+
+/* page2 */
+
+.logo_size_p2 {
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+}
+
+.logo_size1_p2 {
+    width: 35%;
+    margin-top: -2%;
+    float: left;
+    margin-left: 5%;
+}
+
+.p2_font {
+    font-family: "mungil";
+    font-size: 24pt;
+}
+
+.margin_p2 {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+/* page 3 */
+
+.p3_m {
+    margin-top: -5%;
+}
+
+.head_mechanics {
+    background-image: url('../img/tile_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5%;
+}
+
+.tile_bg {
+    background-image: url('../img/tile_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mechanics_font {
+    font-size: 2vw;
+    color: #1f1c52;
+}
+
+.description_mechanics {
+    font-family: 'myraid';
+    color: #1f1c52;
+}
+
+.first_font {
+    font-size: 2vw;
+    color: #1f1c52;
+}
+
+.second_font {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #ed1d24;
+}
+
+.third_font {
+    font-size: 1.5vw;
+}
+
+.fourth_font {
+    font-size: 2vw;
+    color: #ed1d24;
+    font-weight: bold;
+}
+
+
+/* Answer Page content */
+
+.bg_ans {
+    background-image: url('../img/text_box.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+
+.ans_label {
+    font-size: 6vw;
+    font-family: 'mungil';
+}
+
+
+/* page gameplay */
+
+.logo_size_gameplay {
+    width: 25%;
+    float: right;
+    margin-right: 15%;
+}
+
+.logo_size1_gameplay {
+    width: 30%;
+    margin-top: -2%;
+    float: left;
+    margin-left: 15%;
+}
+
+.text_box_gameplay {
+    background-image: url('../img/text_box.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-style: hidden;
+    padding: 3% 2% 3% 2%;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    font-size: 25pt;
+    text-align: center;
+    font-family: 'mungil';
+    /* text-transform: uppercase; */
+}
+
+.text_box_gameplay:focus {
+    outline: none;
+}
+
+.margin_gameplay {
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+.answer_bg {
+    background-image: url('../img/btn/answer_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 6% 3.5% 6% 3%;
+}
+
+.height_answer {
+    height: 86%;
+}
+
+.image_answer {
+    width: 93%;
+    height: 30vh;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+.btn_bottom {
+    width: 70px;
+    height: 70px;
+}
+
+.hint-img {
+    margin-right: 170px;
+}
+
+.clue {
+    background-image: url('../img/tile_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 10% 2% 10%;
+    font-family: 'mungil';
+    font-size: 22pt;
+}
+
+
+/* correct Page */
+
+.logo_size_correct {
+    width: 25%;
+    float: right;
+    margin-right: 9%;
+}
+
+.logo_size1_correct {
+    width: 33%;
+    margin-top: -2%;
+    float: left;
+    margin-left: 10%;
+}
+
+.congrats_font {
+    font-size: 51pt;
+    font-family: 'mungil';
+    color: #1f1c52;
+}
+
+
+/* starLogo Correct Page */
+
+.logo_size_star {
+    width: 20%;
+}
+
+.logo_size_sm_star {
+    width: 15%;
+    transform: rotate(-20deg);
+}
+
+.logo_size_sm_star3 {
+    width: 15%;
+    transform: rotate(20deg);
+}
+
+
+/* Product Page */
+
+.fluoxetine {
+    width: 32%;
+}
+
+.product_font {
+    font-family: 'myraid';
+    text-align: left;
+    font-size: 2vw;
+    margin-left: -15%;
+    position: absolute;
+    line-height: 1.2;
+}
+
+.fluoxetine_head {
+    width: 25%;
+}
+
+
+/* Thank You Page */
+
+.thank_you_font {
+    color: #092e6e;
+    font-family: 'myraid';
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.thankyou_motivest {
+    width: 35%;
+}
+
+.thankyou_end {
+    width: 15%;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* form game page */
+
+.pttg_font {
+    font-size: 25pt;
+}
+
+
+/* login Background */
+
+.enter_passcode {
+    font-size: 20pt;
+}
+
+
+/* font mungil */
+
+.mungil {
+    font-family: 'mungil';
+}
+
+
+/* add css */
+
+.gameplay_pd_add {
+    padding-left: 7.5%;
+}
+
+.gameplay_add_ans {
+    height: 35vh;
+    margin-top: 5%;
+}
+
+.form_game {
+    width: 500px;
+    height: 440px;
+}
+
+@media screen and (max-width: 1824px) {
+    .p2_font {
+        font-size: 18pt;
+    }
+    .btn_bottom {
+        width: 50px;
+        height: 50px;
+    }
+    .text_box_gameplay {
+        padding: 2% 1% 2% 1%;
+        outline: none;
+        font-size: 20pt;
+    }
+    .gameplay_pd_add {
+        padding-left: 3.5%;
+    }
+    .image_answer {
+        height: 27vh;
+    }
+    .gameplay_add_ans {
+        margin-top: 10%;
+    }
+    .bg_ans {
+        margin-top: 12%;
+    }
+    .congrats_font {
+        font-size: 51pt;
+        margin-top: 7%;
+    }
+    .logo_size_star {
+        width: 18%;
+    }
+    .logo_size_sm_star {
+        width: 13%;
+        transform: rotate(-20deg);
+    }
+    .logo_size_sm_star3 {
+        width: 13%;
+        transform: rotate(20deg);
+    }
+}
